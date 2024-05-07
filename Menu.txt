@@ -1,0 +1,6 @@
+Pizza :- Italian pizza, Cheese burst, Margherita, cheese loaded pizza
+Burger :- Veg Cheese burger, Hamburger, Veggie
+French Fries
+Salads :- Green salads, Pasta Salad, Greek salad
+Tacos
+Sandwich
