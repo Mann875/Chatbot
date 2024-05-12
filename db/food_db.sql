@@ -38,7 +38,7 @@ CREATE TABLE `food_items` (
 
 LOCK TABLES `food_items` WRITE;
 /*!40000 ALTER TABLE `food_items` DISABLE KEYS */;
-INSERT INTO `food_items` VALUES (1,'Pav Bhaji',6.00),(2,'Chole Bhature',7.00),(3,'Pizza',8.00),(4,'Mango Lassi',5.00),(5,'Masala Dosa',6.00),(6,'Vegetable Biryani',9.00),(7,'Vada Pav',4.00),(8,'Rava Dosa',7.00),(9,'Samosa',5.00);
+INSERT INTO `food_items` VALUES (1,'Pizza',6.00),(2,'Burger',5.00),(3,'French fries',8.00),(4,'Salad',3.00),(5,'Sandwich',4.00),(6,'Tacos',5.00);
 /*!40000 ALTER TABLE `food_items` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -95,7 +95,7 @@ INSERT INTO `orders` VALUES (40,1,2,12.00),(40,3,1,8.00),(41,4,3,15.00),(41,6,2,
 UNLOCK TABLES;
 
 --
--- Dumping routines for database 'pandeyji_eatery'
+-- Dumping routines for database 'food_db'
 --
 /*!50003 DROP FUNCTION IF EXISTS `get_price_for_item` */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
