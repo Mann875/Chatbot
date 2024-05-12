@@ -8,7 +8,7 @@ cnx = mysql.connector.connect(
     host="localhost",
     port=3306,
     user="root",
-    password="root",
+    password="food",
     database="food_db"
 )
 
@@ -123,7 +123,7 @@ def get_order_status(order_id: int):
 
     # Closing the cursor
 
-    cursor.close()
+    # cursor.close()
 
     if result is not None:
             # Ensure that result is a tuple before accessing its elements

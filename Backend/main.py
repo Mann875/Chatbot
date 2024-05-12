@@ -15,10 +15,13 @@ app = FastAPI()
 static_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "static")
 
 
+# Define the directory where your static files are located
+static_dir = "D:/College/Data Science/NLP/14 Chatbot"
+
 # Mount the static directory to serve static files (like HTML, CSS, JS)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-inprogress_orders = {}
+
 
 @app.get("/")
 async def read_root():
@@ -29,6 +32,13 @@ async def read_root():
 async def get_styles():
     # Return the CSS file as a response
     return FileResponse(os.path.join(static_path, "styles.css"), media_type="text/css")
+
+# @app.get("/images/{image_name}")
+# async def get_image(image_name: str):
+#     # Return the requested image file as a response
+#     return FileResponse(os.path.join(static_path,"/images", image_name), media_type="image/jpg")
+
+inprogress_orders = {}
 
 @app.post("/")
 async def handle_request(request: Request):
