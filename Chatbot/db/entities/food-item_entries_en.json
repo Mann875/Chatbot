@@ -1,0 +1,30 @@
+[
+  {
+    "value": "Pizza",
+    "synonyms": [
+      "Italian Pizza",
+      "Margherita",
+      "Cheese loaded Pizza",
+      "Pizza",
+      "Margherita pizza"
+    ]
+  },
+  {
+    "value": "Burger",
+    "synonyms": [
+      "Burger",
+      "Veg cheese Burger",
+      "Hamburger",
+      "Veggie Burger"
+    ]
+  },
+  {
+    "value": "Salad",
+    "synonyms": [
+      "Salad",
+      "Green Salad",
+      "Pasta Salad",
+      "Greek Salad"
+    ]
+  }
+]
