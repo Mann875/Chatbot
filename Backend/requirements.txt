@@ -1,2 +1,0 @@
-fastAPI==0.111.0
-mysql-connector-python==8.4.0
